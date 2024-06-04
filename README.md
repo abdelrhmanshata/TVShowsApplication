@@ -4,7 +4,7 @@
   - The TV Shows Application is a mobile app developed for Android using Java, aimed at providing users with a seamless experience to browse, view, and get information about various TV shows. The application is designed with a focus on modern Android development practices, ensuring high performance, maintainability, and a responsive user interface.
 
 * Key Components
-  - MVVM Architecture (Model-View-ViewModel)
+- MVVM Architecture (Model-View-ViewModel)
   - The application follows the MVVM architecture to separate concerns and enhance testability.
   - Model: Manages the data layer, including the Room database and network responses.
   - View: Represents the UI layer, which displays data and sends user actions to the ViewModel.
