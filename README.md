@@ -9,31 +9,25 @@
   - Model: Manages the data layer, including the Room database and network responses.
   - View: Represents the UI layer, which displays data and sends user actions to the ViewModel.
   - ViewModel: Acts as a bridge between the Model and View, handling the logic to fetch and expose data to the View.
-
-Retrofit
-Used for making network requests to fetch TV show data from a RESTful API.
-Simplifies HTTP communication, allowing easy implementation of API calls and responses.
-
-Lifecycle Extensions
-Helps in managing the Android lifecycle, ensuring that the components behave correctly as the lifecycle state changes.
-Used to prevent memory leaks and efficiently manage the app's data throughout its lifecycle.
-
-Room Database
-Provides an abstraction layer over SQLite to allow fluent database access while harnessing the full power of SQLite.
-Used for local storage of TV show data, enabling offline access and caching of the data.
-
-RxJava
-Facilitates reactive programming by providing an efficient way to handle asynchronous operations.
-Used for composing asynchronous streams of data, such as network requests and database operations, to ensure a responsive UI.
-
-Material Design
-Ensures that the application adheres to the latest UI/UX standards provided by Google.
-Provides a consistent and intuitive user interface with components like RecyclerView, CardView, and various Material Design widgets.
-
-Data Binding
-Allows binding UI components in the layout files directly to the data sources in the ViewModel.
-Helps in reducing boilerplate code and maintaining a clean separation between logic and UI code.
-
+- Retrofit
+  - Used for making network requests to fetch TV show data from a RESTful API.
+  - Simplifies HTTP communication, allowing easy implementation of API calls and responses.
+- Lifecycle Extensions
+  - Helps in managing the Android lifecycle, ensuring that the components behave correctly as the lifecycle state changes.
+  - Used to prevent memory leaks and efficiently manage the app's data throughout its lifecycle.
+- Room Database
+  - Provides an abstraction layer over SQLite to allow fluent database access while harnessing the full power of SQLite.
+  - Used for local storage of TV show data, enabling offline access and caching of the data.
+- RxJava
+  - Facilitates reactive programming by providing an efficient way to handle asynchronous operations.
+  - Used for composing asynchronous streams of data, such as network requests and database operations, to ensure a responsive UI.
+- Material Design
+  - Ensures that the application adheres to the latest UI/UX standards provided by Google.
+  - Provides a consistent and intuitive user interface with components like RecyclerView, CardView, and various Material Design widgets.
+- Data Binding
+  - Allows binding UI components in the layout files directly to the data sources in the ViewModel.
+  - Helps in reducing boilerplate code and maintaining a clean separation between logic and UI code.
+    
 Features
 Browse TV Shows: Users can browse through a list of popular TV shows with posters and titles displayed.
 
