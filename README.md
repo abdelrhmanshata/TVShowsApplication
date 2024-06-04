@@ -5,11 +5,10 @@
 
 * Key Components
   - MVVM Architecture (Model-View-ViewModel)
-
-The application follows the MVVM architecture to separate concerns and enhance testability.
-Model: Manages the data layer, including the Room database and network responses.
-View: Represents the UI layer, which displays data and sends user actions to the ViewModel.
-ViewModel: Acts as a bridge between the Model and View, handling the logic to fetch and expose data to the View.
+  - The application follows the MVVM architecture to separate concerns and enhance testability.
+  - Model: Manages the data layer, including the Room database and network responses.
+  - View: Represents the UI layer, which displays data and sends user actions to the ViewModel.
+  - ViewModel: Acts as a bridge between the Model and View, handling the logic to fetch and expose data to the View.
 
 Retrofit
 Used for making network requests to fetch TV show data from a RESTful API.
